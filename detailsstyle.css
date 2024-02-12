@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: archivo;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 6.5vh;
+    padding-top: 1.5vh;
+    background-color: #747169;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2vmin;
+}
+
+.button {
+    padding-top: 1vmin;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.8vmin;
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+    transition: .5s ease-in-out;
+
+}
+
+.button a:hover {
+    background-color: #f0512d;
+    padding: 0vmin 2vmin;
+    color: white;
+    transition: .5s ease-in-out;
+}
+
+.heroimage {
+    /* ADD HEADING IMAGE HERE */
+    background-image: url(./images/eventimage1.jpg);
+    background-size: 100%;
+    background-position: top;
+    top: 10px;
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    z-index: -1;
+}
+
+/* CHANGE THE HEADER HERE */
+.heroimage::before {
+    font-size: 12vmin;
+    color: white;
+    /* CHANGE THE HEADER PLS */
+    content: "SERVICES";
+    top: 17.7vmin;
+    left: 10vmin;
+    position: absolute;
+    z-index: 0;
+}
+
+.topleft-logo {
+    position: absolute;
+    left: 10vmin;
+    width: 15vmin;
+    transition: .5s all ease-in-out;
+
+}
+
+.topleft-logo:hover {
+    width: 13vmin;
+    background-color: rgba(255, 255, 255, 0);
+    transition: .5s all ease-in-out;
+}
+
+.topleft-img {
+    width: 100%;
+}
+
+/* don't touch this */
+.middlelogo {
+    background-image: url(./images/OMARI_logo_white.png);
+    background-size: cover;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 544px;
+    height: 173px;
+    top: 35vh;
+}
+
+.contactus {
+    font-size: 10px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 65vh;
+    background-color: #f0512d;
+    padding: 2.2vmin 6.5vmin;
+    color: white;
+    font-size: 1.8vmin;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+
+
+button {
+    background-color: #f0512d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+}
+
+/* ADJUST THE VMIN HEIGHT (DONT TOUCH WIDTH)!!! FOR THE CONTENT BLACK BOX*/
+/* this is where all the content goes */
+.blackbox {
+    position: absolute;
+    background-image: url(/images/OMARI_Timelines_v2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 140vmin;
+    top: 38vmin;
+}
+
+/* ADJUST ONLY THE TOP VMIN TO CHANGE FOOTER POSITION, MAKE SURE TO LEAVE SOME WHITE SPACE ON TOP */
+.footer {
+    position: absolute;
+    top: 170vmin;
+    width: 100%;
+    height: 20vmin;
+    background-color: #747169;
+}
+
+hr {
+    border-color: black;
+}
+
+.bottomleft {
+    display: flex;
+    position: absolute;
+    left: 10vmin;
+    top: 8vmin;
+    padding-bottom: 3vmin;
+    width: 90%;
+    height: 10vmin;
+    
+}
+
+.footer-logo {
+    width: 25vmin;
+}
+
+.footer-logo img{
+    width: 100%;
+}
+
+.footer-info {
+    color: white;
+    width: 50vmin;
+    margin-left: 2vmin;
+    font-size: 1.5vmin;
+    margin-top: 1vmin;
+}
+
+.bottomright {
+    top: 8vmin;
+    position: absolute;
+    right: 10vmin;
+    text-align: right;
+    color: white;
+}
+
+.right-contact {
+    font-weight: 500;
+    margin-bottom: 1vmin;
+    font-size: 2vmin;
+
+}
+
+.address {
+    font-weight: 200;
+    font-size: 1.5vmin;
+
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 20vmin;
+    background-color: black;
+    height: 8vmin;
+    width: 100%;
+    color: #f0512d;
+    padding-top: 2vmin;
+}
+
+.footer-menu a{
+    color: #f0512d;
+    font-size: 2vmin;
+}
+
+
+/* Below here is all of my CSS - Jaydog */
+
+
